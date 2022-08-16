@@ -8,7 +8,7 @@ export default class Event {
 
 
     public calculatePrice(numberOfTickets: number): number{
-        return (numberOfTickets * this._ticketPrice);
+        return (numberOfTickets * this._ticketPrice) * this.reduction;
     }
 
     public createReport(): EventReport {

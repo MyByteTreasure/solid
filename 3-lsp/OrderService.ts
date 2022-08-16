@@ -6,6 +6,7 @@ import Event from "./Event";
 /*
 Discuss the Liskov substitution principle and how it is violated here
 Obviously this results in very ugly code which, even worse, will break if we add another type of product
+I added another comment because I could
  */
 
 export default class OrderService {
